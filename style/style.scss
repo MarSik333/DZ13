@@ -1,0 +1,154 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+a {
+  text-decoration: none;
+  color: red;
+}
+.container {
+    max-width: 1170px;
+    width: 100%;
+    margin: 0 auto;
+    padding: 120px 0;
+}
+
+.title {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    p {
+        font-family: 'Raleway';
+        font-style: normal;
+        font-weight: 500;
+        font-size: 18px;
+        line-height: 24px;
+        text-transform: uppercase;
+        color: #898F8F;
+        margin-bottom: 15px;
+    }
+    h1 {
+        font-family: 'Roboto';
+        font-style: normal;
+        font-weight: 900;
+        font-size: 60px;
+        line-height: 66px;
+        text-transform: uppercase;
+        color: #FFCC00;
+        margin-bottom: 40px;
+    }
+    img {
+      margin-bottom: 40px;
+    }
+}
+
+.content {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  padding: 0 20px;
+
+  .photo img {
+    max-width: 430px;
+    width: 100%;
+    margin: 0 auto;
+  }
+
+  .line {
+    height: 560px;
+    width: 1px;
+    background-color: #FFCC00;
+    margin: 0 20px;
+  }
+
+  .content__text {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    max-width: 430px;
+    width: 100%;
+  
+
+    h2 {
+      font-family: 'Roboto';
+      font-style: normal;
+      font-weight: 900;
+      font-size: 36px;
+      line-height: 42px;
+      text-align: center;
+      text-transform: capitalize;
+      color: #666666;
+      margin-bottom: 30px;
+    }
+
+    img {
+      margin-bottom: 30px;
+    }
+
+    h4 {
+      font-family: 'Raleway';
+      font-style: normal;
+      font-weight: 400;
+      font-size: 24px;
+      line-height: 36px;
+      text-align: center;
+      text-transform: capitalize;
+      color: #666666;
+      margin-bottom: 30px;
+    }
+
+    ul {
+      display: flex;
+      list-style-type: none;
+      gap: 5px;
+      
+      li img {
+        transition: 0.4s;
+        margin-bottom: 50px;
+      }
+      
+      li:hover img {
+        transform: scale(1.2);
+      }
+    }
+
+    p {
+      max-width: 430px;
+      width: 100%;
+      font-family: 'Raleway';
+      font-style: normal;
+      font-weight: 500;
+      font-size: 14px;
+      line-height: 24px;
+      text-align: center;
+      color: #333333;
+      margin-bottom: 20px;
+    }
+  }
+
+  .button {
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 14px;
+    text-align: center;
+    text-transform: uppercase;
+    border: 1px solid #FFCC00;
+    padding: 5px 10px;
+    transition: 0.3s;
+    a {
+      transition: 0.4s;
+      color: #666666;
+    }
+     
+  }
+}
+.button:hover a {
+  color: #9d6565; 
+ 
+}
+
